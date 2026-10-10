@@ -1,0 +1,26 @@
+{
+  "name": "ویراژ — فروشگاه کتاب و مجله",
+  "short_name": "ویراژ",
+  "description": "فروشگاه آنلاین کتاب و مجله ویراژ؛ تاریخ، علم، فناوری، فلسفه و دانش عمومی",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#6d28d9",
+  "icons": [
+    {
+      "src": "/images/viraaz-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/viraaz.png",
+      "sizes": "1536x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

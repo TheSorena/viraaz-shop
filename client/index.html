@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/viraaz-icon.png" />
+    <link rel="apple-touch-icon" href="/images/viraaz-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ویراژ" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ویراژ" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#6d28d9" />
+    <meta name="description" content="ویراژ (Viraaz) — فروشگاه آنلاین کتاب و مجله در حوزه‌های تاریخ، علم، فناوری، فلسفه و دانش عمومی" />
+    <title>ویراژ | فروشگاه کتاب و مجله</title>
+    <link rel="preload" href="/fonts/vazirmatn-arabic-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/vazirmatn-arabic-700.woff2" as="font" type="font/woff2" crossorigin />
+    <script>
+      // اعمال تم ذخیره‌شده قبل از رندر تا صفحه فلش نزند
+      try {
+        var t = localStorage.getItem('viraaz-theme');
+        if (t === '"dark"' || t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#020617');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

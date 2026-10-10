@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6d28d9"/>
+      <stop offset="0.55" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ede9fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#g)"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
+  <!-- open book with dynamic pages -->
+  <path d="M12 21C18 17.5 25 17.5 32 21.5C39 17.5 46 17.5 52 21V45C46 41.5 39 41.5 32 45.5C25 41.5 18 41.5 12 45V21Z" fill="url(#glow)"/>
+  <path d="M32 21.5V45.5" stroke="#6d28d9" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M19 27C22.5 25.6 26.5 25.6 30 27.2M19 32.5C22.5 31.1 26.5 31.1 30 32.7M34 27.2C37.5 25.6 41.5 25.6 45 27M34 32.7C37.5 31.1 41.5 31.1 45 32.5" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" opacity="0.5"/>
+  <!-- rising spark / growth accent -->
+  <path d="M46 12L48.5 16.5L53 19L48.5 21.5L46 26L43.5 21.5L39 19L43.5 16.5L46 12Z" fill="#fbbf24"/>
+  <circle cx="46" cy="19" r="1.6" fill="#fff"/>
+</svg>

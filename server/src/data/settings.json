@@ -1,0 +1,23 @@
+{
+  "siteName": "ویراژ",
+  "siteNameEn": "Viraaz",
+  "tagline": "کتاب، تاریخ، علم و دانش عمومی",
+  "description": "فروشگاه آنلاین کتاب و مجله ویراژ؛ گزیده‌ای از بهترین کتاب‌ها و مقالات در حوزه‌های تاریخ، علم، فناوری، فلسفه و دانش عمومی.",
+  "baseUrl": "http://localhost:4000",
+  "currency": "تومان",
+  "currencyCode": "IRR",
+  "freeShippingThreshold": 500000,
+  "shippingFee": 45000,
+  "taxRate": 0,
+  "social": {
+    "instagram": "https://instagram.com/viraaz",
+    "telegram": "https://t.me/viraaz",
+    "twitter": "https://twitter.com/viraaz"
+  },
+  "contact": {
+    "email": "support@viraaz.example",
+    "phone": "۰۲۱-۰۰۰۰-۰۰۰۰",
+    "address": "تهران، خیابان ولیعصر، پلاک ۱۲۳ (آدرس نمایشی)"
+  },
+  "demoNotice": "این یک نمونه‌کار آزمایشی است؛ سفارش‌ها واقعی نیستند و هیچ پولی دریافت نمی‌شود."
+}

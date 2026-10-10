@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "client/dist",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/handler?oripath=:path*"
+    },
+    {
+      "source": "/:path((?!api/|assets/|images/|fonts/|manifest\\.webmanifest|robots\\.txt|sitemap\\.xml|logo\\.svg).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "functions": {
+    "api/handler.js": {
+      "includeFiles": "server/src/data/**"
+    }
+  }
+}
